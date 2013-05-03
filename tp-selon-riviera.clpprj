@@ -7,21 +7,227 @@
 	</errors>
 	<codestructure version="4.4">
 		<phptree>
-			<treenode node="Php-Produite/infoTableau.php;PHP:PHP Include;c:\wamp\www\tp-selon-riviera\produit.php;f15;2;43;2;;c:\wamp\www\tp-selon-riviera\detail.php;f18;2;46;2;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f21;0;49;0;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f18;1;46;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/data/user.txt;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f16;3;42;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="template/template-footer.php;PHP:PHP Include;c:\wamp\www\tp-selon-riviera\index.php;f15;124;43;124;;c:\wamp\www\tp-selon-riviera\merci.php;f15;127;43;127;;c:\wamp\www\tp-selon-riviera\produit.php;f15;86;43;86;;c:\wamp\www\tp-selon-riviera\galerie.php;f15;97;43;97;;c:\wamp\www\tp-selon-riviera\formulare.php;f15;221;43;221;;c:\wamp\www\tp-selon-riviera\detail.php;f15;68;43;68;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f40;77;68;77;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f15;127;43;127;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f15;221;43;221;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f35;59;63;59;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f15;95;43;95;;C:\wamp\www\TP\tp-selon-riviera\index.php;f15;124;43;124;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/gel-stimulants.inc;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f21;0;52;0;;C:\wamp\www\TP\tp-selon-riviera\detail-gels.php;f17;2;48;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="template/template-header.php;PHP:PHP Include;c:\wamp\www\tp-selon-riviera\index.php;f10;32;38;32;;c:\wamp\www\tp-selon-riviera\merci.php;f15;28;43;28;;c:\wamp\www\tp-selon-riviera\produit.php;f15;35;43;35;;c:\wamp\www\tp-selon-riviera\galerie.php;f10;33;38;33;;c:\wamp\www\tp-selon-riviera\formulare.php;f10;28;38;28;;c:\wamp\www\tp-selon-riviera\detail.php;f15;37;43;37;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f38;29;66;29;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f15;28;43;28;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f10;28;38;28;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f36;34;64;34;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f29;32;57;32;;C:\wamp\www\TP\tp-selon-riviera\index.php;f10;32;38;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/infoTableau.inc;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f16;2;44;2;;C:\wamp\www\TP\tp-selon-riviera\admin.php;f15;3;43;3;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f17;3;45;3;;C:\wamp\www\TP\tp-selon-riviera\login.php;f15;1;43;1;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f16;2;44;2;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f17;3;45;3;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f18;2;46;2;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f15;1;43;1;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f17;13;45;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_GET;PHP:Var Name;c:\wamp\www\tp-selon-riviera\detail.php;f18;4;23;4;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f18;3;23;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/infoTableau.php;PHP:PHP Include;c:\wamp\www\tp-selon-riviera\produit.php;f15;2;43;2;;c:\wamp\www\tp-selon-riviera\detail.php;f18;2;46;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="article;PHP:Var Name;c:\wamp\www\tp-selon-riviera\produit.php;f65;47;73;47;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f65;39;73;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/laque-coiffant.inc;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f21;0;52;0;;C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php;f17;2;48;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="cle;PHP:Var Name;c:\wamp\www\tp-selon-riviera\produit.php;f59;47;63;47;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f59;39;63;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/mousses.inc;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php;f17;2;41;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="idProduite;PHP:Var Name;c:\wamp\www\tp-selon-riviera\detail.php;f4;4;15;4;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f4;3;15;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Php-Produite/volumisant.inc;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f21;0;48;0;;C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php;f17;2;44;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="produit;PHP:Var Name;c:\wamp\www\tp-selon-riviera\Php-Produite\infoTableau.php;f0;2;8;2;;c:\wamp\www\tp-selon-riviera\produit.php;f47;47;55;47;;c:\wamp\www\tp-selon-riviera\detail.php;f59;47;67;47;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f0;2;8;2;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f47;39;55;39;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f67;43;75;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="SQL.php;PHP:PHP Include;C:\wamp\www\TP\tp-selon-riviera\detail.php;f15;3;22;3;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f15;2;22;2;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f16;14;23;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="template/template-footer.php;PHP:PHP Include;c:\wamp\www\tp-selon-riviera\index.php;f15;124;43;124;;c:\wamp\www\tp-selon-riviera\merci.php;f15;127;43;127;;c:\wamp\www\tp-selon-riviera\produit.php;f15;86;43;86;;c:\wamp\www\tp-selon-riviera\galerie.php;f15;97;43;97;;c:\wamp\www\tp-selon-riviera\formulare.php;f15;221;43;221;;c:\wamp\www\tp-selon-riviera\detail.php;f15;68;43;68;;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f40;164;68;164;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f15;101;43;101;;C:\wamp\www\TP\tp-selon-riviera\index.php;f15;131;43;131;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f15;228;43;228;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f15;149;43;149;;C:\wamp\www\TP\tp-selon-riviera\admin.php;f40;130;68;130;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f40;70;68;70;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f40;105;68;105;;C:\wamp\www\TP\tp-selon-riviera\login.php;f40;214;68;214;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f40;77;68;77;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f40;169;68;169;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f32;71;60;71;;C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php;f35;62;63;62;;C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php;f35;62;63;62;;C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php;f35;62;63;62;;C:\wamp\www\TP\tp-selon-riviera\detail-gels.php;f35;62;63;62;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f40;171;68;171;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f35;73;63;73;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f40;194;68;194;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f40;151;68;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="template/template-header.php;PHP:PHP Include;c:\wamp\www\tp-selon-riviera\index.php;f10;32;38;32;;c:\wamp\www\tp-selon-riviera\merci.php;f15;28;43;28;;c:\wamp\www\tp-selon-riviera\produit.php;f15;35;43;35;;c:\wamp\www\tp-selon-riviera\galerie.php;f10;33;38;33;;c:\wamp\www\tp-selon-riviera\formulare.php;f10;28;38;28;;c:\wamp\www\tp-selon-riviera\detail.php;f15;37;43;37;;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f38;83;66;83;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f28;37;56;37;;C:\wamp\www\TP\tp-selon-riviera\index.php;f10;39;38;39;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f18;33;46;33;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f15;50;43;50;;C:\wamp\www\TP\tp-selon-riviera\admin.php;f38;43;66;43;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f38;29;66;29;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f38;49;66;49;;C:\wamp\www\TP\tp-selon-riviera\login.php;f38;157;66;157;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f38;29;66;29;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f38;86;66;86;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f38;29;66;29;;C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php;f28;33;56;33;;C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php;f28;33;56;33;;C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php;f28;33;56;33;;C:\wamp\www\TP\tp-selon-riviera\detail-gels.php;f28;33;56;33;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f38;86;66;86;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f28;44;56;44;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f38;146;66;146;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f38;94;66;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="connectDB;PHP:Function Name;C:\wamp\www\TP\tp-selon-riviera\SQL.php;f0;2;1;13;;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f0;2;1;12;;;;vpos;;v;;r;;d20,2;;b0,0;;m">
+				<treenode node="con;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f1;4;5;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="dateHeurCouront;PHP:Function Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f0;4;1;34;;;;vpos;;v;;r;;d26,4;;b0,0;;m">
+				<treenode node="dateAnne;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f2;31;11;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dateCouront;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f2;32;14;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dateJour;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f1;6;10;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="open_file;PHP:Function Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f0;8;1;13;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f0;42;1;47;;;;vpos;;v;;r;;d27,42;;b0,0;;mchemin;;p">
+				<treenode node="chemin;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f19;8;26;8;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f19;42;26;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="contenu_du_fichier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f1;10;20;10;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f1;44;20;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="fichier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f1;9;9;9;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f1;43;9;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="save_file;PHP:Function Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f0;2;1;6;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f0;36;1;40;;;;vpos;;v;;r;;d48,36;;b0,0;;mchemin;;pcontenu_du_fichier;;p">
+				<treenode node="chemin;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f19;2;26;2;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f19;36;26;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="contenu_du_fichier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f28;2;47;2;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f28;36;47;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="fichier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f1;3;9;3;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f1;37;9;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="selectProduitId;PHP:Function Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f0;33;1;47;;;;vpos;;v;;r;;d29,33;;b0,0;;mid;;p">
+				<treenode node="con;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f1;35;5;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="id;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f25;33;28;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="produit;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f2;40;10;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f1;38;8;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="row;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f7;39;11;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="selectProduitType;PHP:Function Name;C:\wamp\www\TP\tp-selon-riviera\SQL.php;f0;15;2;22;;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f0;14;1;31;;;;vpos;;v;;r;;d30,14;;b0,0;;mx;;p">
+				<treenode node="con;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f1;16;5;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f1;20;3;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="produit;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f2;22;10;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f1;19;8;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="row;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f7;21;11;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="x;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\SQL.php;f27;15;29;15;;C:\wamp\www\TP\tp-selon-riviera\Codelobster0.php;f27;14;29;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="_COOKIE;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f10;99;18;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_GET;PHP:Var Name;c:\wamp\www\tp-selon-riviera\detail.php;f18;4;23;4;;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f12;12;17;12;;C:\wamp\www\TP\tp-selon-riviera\login.php;f10;5;15;5;;C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php;f21;4;26;4;;C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php;f18;4;23;4;;C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php;f24;4;29;4;;C:\wamp\www\TP\tp-selon-riviera\detail-gels.php;f24;4;29;4;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f11;5;16;5;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f18;7;23;7;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f10;9;15;9;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f11;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_POST;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f10;7;16;7;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f10;2;16;2;;C:\wamp\www\TP\tp-selon-riviera\login.php;f10;28;16;28;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f10;8;16;8;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f10;22;16;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f10;5;19;5;;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f10;4;19;4;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f11;6;20;6;;C:\wamp\www\TP\tp-selon-riviera\login.php;f11;9;20;9;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f4;8;13;8;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f11;24;20;24;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f12;3;21;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="artic;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\panier.php;f4;30;10;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="article;PHP:Var Name;c:\wamp\www\tp-selon-riviera\produit.php;f65;47;73;47;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f69;39;77;39;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f72;39;80;39;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f72;39;80;39;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f3;20;11;20;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f33;32;41;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="articleDetaile;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f3;28;18;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="ArticleEnleverID;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\panier.php;f3;27;20;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="champs_login;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f0;92;13;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="champs_pw;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f0;93;10;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="checkBoxExiste;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\produit.php;f3;26;18;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="cle;PHP:Var Name;c:\wamp\www\tp-selon-riviera\produit.php;f59;47;63;47;;C:\wamp\www\TP\tp-selon-riviera\admin.php;f33;72;37;72;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f63;39;67;39;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f47;87;51;87;;C:\wamp\www\TP\tp-selon-riviera\login.php;f9;14;13;14;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f66;39;70;39;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f66;39;70;39;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f23;30;27;30;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f27;32;31;32;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f33;29;37;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="clientNouvel;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f4;7;17;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="comp;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f2;21;7;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="contenu_cookie;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f0;95;15;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="contenu_du_tableau;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f5;42;24;42;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f5;43;24;43;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f3;40;22;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="contenuCookie;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f1;100;15;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="existe;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f6;10;13;10;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f6;11;13;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="favoritePrefere;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f51;111;67;111;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f51;86;67;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="favoriteUser;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f5;31;18;31;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f5;32;18;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="fichier_contunu;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f5;43;21;43;;C:\wamp\www\TP\tp-selon-riviera\admin.php;f9;67;25;67;;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;34;19;34;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f5;44;21;44;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f3;41;19;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="gel_stimulants;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\gel-stimulants.inc;f0;2;15;2;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f47;39;62;39;;C:\wamp\www\TP\tp-selon-riviera\detail-gels.php;f67;46;82;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="headers;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\merci.php;f5;9;13;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f23;11;26;11;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f23;12;26;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="idgel_stimulants;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\detail-gels.php;f4;4;21;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="idlaque_coiffant;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php;f4;4;21;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="idmousses;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php;f4;4;14;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="idProduite;PHP:Var Name;c:\wamp\www\tp-selon-riviera\detail.php;f4;4;15;4;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f4;7;15;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="idvolumisants;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php;f4;4;18;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="laque_coiffant;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\laque-coiffant.inc;f0;2;15;2;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f47;39;62;39;;C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php;f67;46;82;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="logonNon;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f1;25;10;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="logonNonPanier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f26;5;41;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="message;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\merci.php;f5;8;13;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mousses;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php;f67;46;75;46;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f0;180;8;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="nom;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\merci.php;f1;3;5;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="nombreUsers;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f5;45;17;45;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f5;46;17;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="nomducookie;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f0;89;12;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="nomUser;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f2;7;10;7;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f3;8;11;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="prenomUser;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f2;8;13;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="prixTotal;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f39;65;49;65;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f44;134;54;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="prodActuel;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\produit.php;f80;9;91;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="produit;PHP:Var Name;c:\wamp\www\tp-selon-riviera\Php-Produite\infoTableau.php;f0;2;8;2;;c:\wamp\www\tp-selon-riviera\produit.php;f47;47;55;47;;c:\wamp\www\tp-selon-riviera\detail.php;f59;47;67;47;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f0;46;8;46;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f1;8;9;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="produitDetaile;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\detail.php;f1;14;16;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="produitTab;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\produit.php;f1;7;12;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="recupererMail;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f3;9;17;9;;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;30;17;30;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f3;10;17;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="recupererPWD;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;31;16;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="shampoing;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f0;80;10;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="subject;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\merci.php;f5;7;13;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tab1;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f1;101;6;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tabArticleAcheter;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f3;15;21;15;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f2;16;20;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tableArticlePanier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\produit.php;f2;73;21;73;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tableChoixPanier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\produit.php;f3;27;20;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tabPanier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\produit.php;f1;20;11;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tabupw;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f1;108;8;108;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tabuser;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f1;102;9;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tabUser;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f2;6;10;6;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f3;7;11;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textCheckBoxNonExiste;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f2;11;24;11;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f1;17;23;17;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f2;17;24;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textCompte;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f2;9;13;9;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f3;9;14;9;;C:\wamp\www\TP\tp-selon-riviera\login.php;f2;24;13;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textCompteBienvenue;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f2;10;22;10;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f3;10;23;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textConnexion;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f2;5;16;5;;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;12;17;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textDeconexion;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f2;6;17;6;;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;11;18;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textDefinision;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f2;12;17;12;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f1;18;16;18;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f2;18;17;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textErreur;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f2;4;13;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textPanier;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f2;20;13;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textPanierNombre;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\template\template-header.php;f2;26;19;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="textPublicite;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f3;11;17;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="to;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\merci.php;f2;6;5;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="trouve;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;40;10;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="user;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f30;11;35;11;;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;14;8;14;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f30;12;35;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="userRecuperer;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f5;22;19;22;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f5;23;19;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="users;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f13;11;19;11;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php;f0;20;6;20;;C:\wamp\www\TP\tp-selon-riviera\login.php;f3;35;9;35;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f13;12;19;12;;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc;f0;54;6;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="usersClient;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f10;69;22;69;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f4;43;16;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="valeur;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\admin.php;f40;72;47;72;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f53;87;60;87;;C:\wamp\www\TP\tp-selon-riviera\login.php;f28;41;35;41;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f29;30;36;30;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f39;53;46;53;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f39;29;46;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="volumisants;PHP:Var Name;C:\wamp\www\TP\tp-selon-riviera\Php-Produite\volumisant.inc;f0;2;12;2;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f47;39;59;39;;C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php;f67;46;79;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 		</phptree>
 		<jstree>
@@ -10565,7 +10771,7 @@
 			</treenode>
 			<treenode node="_default;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f25729;4;25737;4;;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f31245;2;31253;2;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f25729;4;25737;4;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f31245;2;31253;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_gaq;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\index.php;f16;18;20;18;;c:\wamp\www\tp-selon-riviera\merci.php;f16;15;20;15;;c:\wamp\www\tp-selon-riviera\produit.php;f16;21;20;21;;c:\wamp\www\tp-selon-riviera\galerie.php;f17;20;21;20;;c:\wamp\www\tp-selon-riviera\formulare.php;f16;15;20;15;;c:\wamp\www\tp-selon-riviera\detail.php;f8;23;12;23;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f17;20;21;20;;C:\wamp\www\TP\tp-selon-riviera\index.php;f16;18;20;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_gaq;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\index.php;f16;18;20;18;;c:\wamp\www\tp-selon-riviera\merci.php;f16;15;20;15;;c:\wamp\www\tp-selon-riviera\produit.php;f16;21;20;21;;c:\wamp\www\tp-selon-riviera\galerie.php;f17;20;21;20;;c:\wamp\www\tp-selon-riviera\formulare.php;f16;15;20;15;;c:\wamp\www\tp-selon-riviera\detail.php;f8;23;12;23;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f17;20;21;20;;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f16;71;20;71;;C:\wamp\www\TP\tp-selon-riviera\index.php;f16;25;20;25;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f16;37;20;37;;C:\wamp\www\TP\tp-selon-riviera\login.php;f16;137;20;137;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f16;17;20;17;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f16;17;20;17;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f16;17;20;17;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f16;59;20;59;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f16;22;20;22;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f16;37;20;37;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f16;72;20;72;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f16;33;20;33;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f16;134;20;134;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f16;82;20;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="_jQuery;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;36;8;36;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;36;8;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10863,7 +11069,7 @@
 			</treenode>
 			<treenode node="docElem;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;3706;8;3706;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;3706;8;3706;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="document;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery.fancybox.js;f19;12;27;12;;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;32;9;32;;c:\wamp\www\tp-selon-riviera\assets\javascript\javascript.js;f2;2;10;2;;c:\wamp\www\tp-selon-riviera\assets\javascript\javascript-fancybox.js;f2;0;10;0;;c:\wamp\www\tp-selon-riviera\index.php;f25;23;33;23;;c:\wamp\www\tp-selon-riviera\merci.php;f25;20;33;20;;c:\wamp\www\tp-selon-riviera\produit.php;f25;26;33;26;;c:\wamp\www\tp-selon-riviera\galerie.php;f26;25;34;25;;c:\wamp\www\tp-selon-riviera\formulare.php;f25;20;33;20;;c:\wamp\www\tp-selon-riviera\detail.php;f17;28;25;28;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery.fancybox.js;f19;12;27;12;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;32;9;32;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript.js;f2;2;10;2;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript-fancybox.js;f2;0;10;0;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f26;25;34;25;;C:\wamp\www\TP\tp-selon-riviera\index.php;f25;23;33;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="document;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery.fancybox.js;f19;12;27;12;;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;32;9;32;;c:\wamp\www\tp-selon-riviera\assets\javascript\javascript.js;f2;2;10;2;;c:\wamp\www\tp-selon-riviera\assets\javascript\javascript-fancybox.js;f2;0;10;0;;c:\wamp\www\tp-selon-riviera\index.php;f25;23;33;23;;c:\wamp\www\tp-selon-riviera\merci.php;f25;20;33;20;;c:\wamp\www\tp-selon-riviera\produit.php;f25;26;33;26;;c:\wamp\www\tp-selon-riviera\galerie.php;f26;25;34;25;;c:\wamp\www\tp-selon-riviera\formulare.php;f25;20;33;20;;c:\wamp\www\tp-selon-riviera\detail.php;f17;28;25;28;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery.fancybox.js;f19;12;27;12;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;32;9;32;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript-fancybox.js;f2;0;10;0;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f26;25;34;25;;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f25;76;33;76;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript.js;f2;2;10;2;;C:\wamp\www\TP\tp-selon-riviera\index.php;f25;30;33;30;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f25;42;33;42;;C:\wamp\www\TP\tp-selon-riviera\login.php;f25;142;33;142;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f25;22;33;22;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f25;22;33;22;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f25;22;33;22;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f25;64;33;64;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f25;27;33;27;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f25;42;33;42;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f25;77;33;77;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f25;38;33;38;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f25;139;33;139;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f25;87;33;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="documentIsXML;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;3707;14;3707;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;3707;14;3707;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10951,7 +11157,7 @@
 			</treenode>
 			<treenode node="G;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f17860;2;17861;2;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f17860;2;17861;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="ga;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\index.php;f20;23;22;23;;c:\wamp\www\tp-selon-riviera\merci.php;f20;20;22;20;;c:\wamp\www\tp-selon-riviera\produit.php;f20;26;22;26;;c:\wamp\www\tp-selon-riviera\galerie.php;f21;25;23;25;;c:\wamp\www\tp-selon-riviera\formulare.php;f20;20;22;20;;c:\wamp\www\tp-selon-riviera\detail.php;f12;28;14;28;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f21;25;23;25;;C:\wamp\www\TP\tp-selon-riviera\index.php;f20;23;22;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="ga;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\index.php;f20;23;22;23;;c:\wamp\www\tp-selon-riviera\merci.php;f20;20;22;20;;c:\wamp\www\tp-selon-riviera\produit.php;f20;26;22;26;;c:\wamp\www\tp-selon-riviera\galerie.php;f21;25;23;25;;c:\wamp\www\tp-selon-riviera\formulare.php;f20;20;22;20;;c:\wamp\www\tp-selon-riviera\detail.php;f12;28;14;28;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f21;25;23;25;;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f20;76;22;76;;C:\wamp\www\TP\tp-selon-riviera\index.php;f20;30;22;30;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f20;42;22;42;;C:\wamp\www\TP\tp-selon-riviera\login.php;f20;142;22;142;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f20;22;22;22;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f20;22;22;22;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f20;22;22;22;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f20;64;22;64;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f20;27;22;27;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f20;42;22;42;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f20;77;22;77;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f20;38;22;38;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f20;139;22;139;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f20;87;22;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="GET;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f28767;3;28770;3;;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f9606;3;9609;3;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f28767;3;28770;3;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f9606;3;9609;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -11423,7 +11629,7 @@
 			</treenode>
 			<treenode node="rxhtmlTag;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;5839;10;5839;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js;f1;5839;10;5839;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="s;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f62;2;63;2;;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f25202;1;25203;1;;c:\wamp\www\tp-selon-riviera\index.php;f20;25;21;25;;c:\wamp\www\tp-selon-riviera\merci.php;f20;22;21;22;;c:\wamp\www\tp-selon-riviera\produit.php;f20;28;21;28;;c:\wamp\www\tp-selon-riviera\galerie.php;f21;27;22;27;;c:\wamp\www\tp-selon-riviera\formulare.php;f20;22;21;22;;c:\wamp\www\tp-selon-riviera\detail.php;f12;30;13;30;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f62;2;63;2;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f25202;1;25203;1;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f21;27;22;27;;C:\wamp\www\TP\tp-selon-riviera\index.php;f20;25;21;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="s;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f62;2;63;2;;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f25202;1;25203;1;;c:\wamp\www\tp-selon-riviera\index.php;f20;25;21;25;;c:\wamp\www\tp-selon-riviera\merci.php;f20;22;21;22;;c:\wamp\www\tp-selon-riviera\produit.php;f20;28;21;28;;c:\wamp\www\tp-selon-riviera\galerie.php;f21;27;22;27;;c:\wamp\www\tp-selon-riviera\formulare.php;f20;22;21;22;;c:\wamp\www\tp-selon-riviera\detail.php;f12;30;13;30;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f62;2;63;2;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js;f25202;1;25203;1;;C:\wamp\www\TP\tp-selon-riviera\galerie.php;f21;27;22;27;;C:\wamp\www\TP\tp-selon-riviera\registramon.php;f20;78;21;78;;C:\wamp\www\TP\tp-selon-riviera\index.php;f20;32;21;32;;C:\wamp\www\TP\tp-selon-riviera\utilisateur.php;f20;44;21;44;;C:\wamp\www\TP\tp-selon-riviera\login.php;f20;144;21;144;;C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php;f20;24;21;24;;C:\wamp\www\TP\tp-selon-riviera\volumisants.php;f20;24;21;24;;C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php;f20;24;21;24;;C:\wamp\www\TP\tp-selon-riviera\acheter.php;f20;66;21;66;;C:\wamp\www\TP\tp-selon-riviera\formulare.php;f20;29;21;29;;C:\wamp\www\TP\tp-selon-riviera\merci.php;f20;44;21;44;;C:\wamp\www\TP\tp-selon-riviera\inscription.php;f20;79;21;79;;C:\wamp\www\TP\tp-selon-riviera\detail.php;f20;40;21;40;;C:\wamp\www\TP\tp-selon-riviera\produit.php;f20;141;21;141;;C:\wamp\www\TP\tp-selon-riviera\panier.php;f20;89;21;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="S;JS:JS Var Name;c:\wamp\www\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f433;2;434;2;;C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js;f433;2;434;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -11613,10 +11819,15 @@
 	<dbgurls>
 	</dbgurls>
 	<filescache>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\template\template-header.php" crc="39462780"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\template\template-footer.php" crc="-1210721839"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.php" crc="-1367322176"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\stylesheet\stylesheet.css" crc="1569461185"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\template\template-header.php" crc="-1111915405"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\template\template-footer.php" crc="1860772611"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\data\user.txt" crc="2035110781"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\data\listeComandeSociete.txt" crc="-224703131"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\volumisant.inc" crc="1870380313"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\laque-coiffant.inc" crc="-423883727"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\infoTableau.inc" crc="167330909"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\Php-Produite\gel-stimulants.inc" crc="1155901582"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\stylesheet\stylesheet.css" crc="1916070168"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\stylesheet\js-image-slider.css" crc="1427498050"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\stylesheet\jquery.fancybox.css" crc="1164540834"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\js-image-slider.js" crc="-1901596462"/>
@@ -11625,7 +11836,7 @@
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-latest.js" crc="831026166"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.9.1.min.js" crc="-2072595312"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\jquery-1.7.2_min.js" crc="-2124296567"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript.js" crc="1137108026"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript.js" crc="-984435874"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\assets\javascript\javascript-fancybox.js" crc="105219587"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\.idea\scopes\scope_settings.xml" crc="2157974"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\.idea\libraries\sass_stdlib.xml" crc="232495305"/>
@@ -11635,11 +11846,25 @@
 		<file name="C:\wamp\www\TP\tp-selon-riviera\.idea\modules.xml" crc="1080201218"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\.idea\misc.xml" crc="914525404"/>
 		<file name="C:\wamp\www\TP\tp-selon-riviera\.idea\encodings.xml" crc="-303890289"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\produit.php" crc="102788209"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\merci.php" crc="2127868666"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\index.php" crc="1216618974"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\galerie.php" crc="-2056712046"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\formulare.php" crc="2015424849"/>
-		<file name="C:\wamp\www\TP\tp-selon-riviera\detail.php" crc="1828517973"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\volumisants.php" crc="1686102518"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\utilisateur.php" crc="-1874261280"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\SQL.php" crc="-2077631980"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\produit.php" crc="-1416313114"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\panier.php" crc="181403720"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\merci.php" crc="401148482"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\login.php" crc="-689380981"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\laque-coiffantes.php" crc="-1490352585"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\inscription.php" crc="-1601302300"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\index.php" crc="1162149363"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\gel-stimulant.php" crc="1564730904"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\galerie.php" crc="566835301"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\formulare.php" crc="-403385773"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\detail.php" crc="1239297402"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\detail-volumisants.php" crc="945294205"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\detail-mousse.php" crc="2005594167"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\detail-laque-coiffante.php" crc="-289361763"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\detail-gels.php" crc="332143460"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\admin.php" crc="2005938641"/>
+		<file name="C:\wamp\www\TP\tp-selon-riviera\acheter.php" crc="-167809166"/>
 	</filescache>
 </project>

@@ -19,10 +19,10 @@
                                 <li>
                                     <ul>
                                         <li><h3>Promotion</h3></li>
-                                        <li><a href="#" title="categiries-categiries">Categiries</a></li>
-                                        <li><a href="#" title="All categiries-categiries">All Categiries</a></li>
-                                        <li><a href="#" title="privaly Privaly-Policy">Privaly Policy</a></li>
-                                        <li><a href="#" title="privaly Privaly-Policy">Privaly</a></li>
+                                        <li><a href="#" title="categiries-categiries">Catégories</a></li>
+                                        <li><a href="#" title="All categiries-categiries">All Catégories</a></li>
+                                        <li><a href="#" title="privaly Privaly-Policy">Privasy Policy</a></li>
+                                        <li><a href="#" title="privaly Privaly-Policy">Privasy</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -41,8 +41,8 @@
                                 <li>
                                     <ul  class="devlopper">
                                         <li><h3>Cette Site est Developpe par
-                                            <span class="color-devlo">  Christobald </span> et <span class="color-devlo"> Edis.</span></h3></li>
-                                        <li class="devlopper-devinition">2013 All Rights Reserved. Montreal  Quebec Canada</li>
+                                            <span class="color-devlo">  Christobald </span>,<span class="color-devlo">Michael </span> et <span class="color-devlo"> Edis.</span></h3></li>
+                                        <li class="devlopper-devinition">2013 All Rights Reserved. Montréal  Québec Canada</li>
                                         <li class="devlopper-devinition">develo@gmail.com</li>
                                     </ul>
                                 </li>

@@ -1,4 +1,121 @@
-<?php  require_once('Php-Produite/infoTableau.inc');   ?>
+<?php  
+	require_once('Php-Produite/infoTableau.inc');   
+	require_once('SQL.php');   
+	session_start();
+	
+//	var_dump($_SESSION['panier']);
+	
+	$produitTab = array(); 
+	$produit = array();
+	if(isset($_GET['shampoing'])){ 	$produitTab = selectProduitType("shampoing");  $prodActuel = "shampoing"; 	}
+	if(isset($_GET['mousses'])){ 	$produitTab = selectProduitType("mousses");   $prodActuel = "mousses";       }
+	
+	//var_dump($produitTab);
+	
+	$produit = $produitTab;
+	
+	
+	$textCheckBoxNonExiste = "";
+	$textDefinision = "Choisissez le shampoing professionnel adapté à votre chevelure!";
+	
+	$tabPanier = array();
+	
+	if(isset($_POST['panier'])){
+	//	echo('panier++++++');  echo('<br/>'); //  session_destroy();  /// pour detroit le session.
+		if(isset($_SESSION['utilisateur'])){ 
+		//	echo('commancer de ajouter a panier!');
+			$checkBoxExiste = 0;
+			$tableChoixPanier = array();
+			
+			
+
+				//// charcher le produite choisise base sur son id:	
+				foreach($produitTab as $cle=>$article){
+					if(isset($_POST[$cle])){/// si il a acroche on moen un chexBox le client 
+								$tableChoixPanier [] = $article;
+								$checkBoxExiste++;		
+							}
+				}
+				/*foreach($mousses as $cle=>$article){
+					if(isset($_POST[$cle])){/// si il a acroche on moen un chexBox le client 
+								$tableChoixPanier [] = $article;
+								$checkBoxExiste++;		
+							}
+				}*/
+	
+			if($checkBoxExiste == 0){
+				$textDefinision = "";
+				$textCheckBoxNonExiste = "Vous douvez Choisir  aux moin un Article a Ajouter au Panier?";
+			}
+			else{ 
+				if(!isset($_SESSION['panier'])){ /// si n'existe pas il va creer le SESSION 'panier'
+					$_SESSION['panier'] = array();
+				}
+				foreach($tableChoixPanier as $cle=>$valeur){
+					array_push($_SESSION['panier'], $valeur); /// ajouter dans table /Session 'PANIER';
+				}
+		
+				
+	///		var_dump($_SESSION['panier']);		
+			}
+			
+			
+			
+		}
+		else{ header("Location: login.php?panier"); }  //// si le utilisateur il poas loger oncore avan Ajouter a Panier
+	
+	}
+	
+	
+	if(isset($_POST['acheter'])){
+	///	echo($_POST['acheter']);
+	///	echo('Acheter+++++++++');
+		$checkBoxExiste = 0;
+		$tableArticlePanier = array();
+		
+		foreach($produit as $cle=>$valeur){
+			
+			if(isset($_POST[$cle])){/// si il a acroche on moen un chexBox le client 
+				$tableArticlePanier [] = $valeur;
+				$checkBoxExiste++;		
+			}		
+		}
+		
+		if( (count($_SESSION['panier'])!=0)  &&  ( $checkBoxExiste == 0 )  ){
+			   $textDefinision = "Choisissez le shampoing professionnel adapté à votre chevelure!";
+			   $_SESSION['acheter'] = $_SESSION['panier'];
+			   header("Location: panier.php");
+			 } 
+			 
+	//	if(isset($_SESSION['panier'])){ $checkBoxExiste++;} 
+		
+		if( ($checkBoxExiste == 0) && (count($_SESSION['panier'])==0) ){
+			$textDefinision = "";
+			$textCheckBoxNonExiste = "Vous douvez Choisir  aux moin un Article a Ajouter a Acheter ?";
+		}
+		else{
+			$_SESSION['acheter'] = $tableArticlePanier;
+		//	echo('deriger vers acheter.php');			
+			if(isset($_SESSION['panier'])){
+				$tableArticlePanier = $_SESSION['panier']; 
+			}
+			if(count($_SESSION['acheter'])==0){
+				$textDefinision = "";
+				$textCheckBoxNonExiste = "Vous douvez Choisir  aux moin un Article a Ajouter a Acheter ?";
+			}
+			else{ /* echo('derige!!!!');   */
+			   $_SESSION['acheter'] = $tableArticlePanier;
+		///	   var_dump($_SESSION['acheter']);
+		 //	   header("Location: panier.php");
+			}
+			
+		 
+		}
+	//	var_dump($tableArticlePanier);
+	}
+	
+	
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
@@ -32,10 +149,11 @@
                 <div id="main-container">
                     <h1>Salon Reviera</h1>
                     <p><a href="#"><img src="assets/images/salonC.jpg" id="salonC" alt=""/></a></p>
-                    <p class="salon-text1">Choisissez le shampooing professionnel adapté à votre chevelure!</p>
+                    <p class="salon-text1">      <?php  echo($textDefinision);      ?></p>
+					<p class="affichageLoginNon"><?php  echo($textCheckBoxNonExiste); ?></p>
 
                     <div id="form-container-produite">
-                        <form action="#product-list-title" method="post">
+                        <form action="produit.php?<?php echo($prodActuel); ?>" method="POST">
                             <ol class="productlistPitem-w180">
                                 <?php  foreach($produit as $cle=>$article){
 
@@ -43,20 +161,19 @@
                                 <li class="">
                                     <div class="imageandcheckbox">
                                         <div class="pimg-h158">
-                                            <a class="link" href="detail.php?id=<?php echo($cle); ?>" title="Voir la fiche de Shampooing technique après coloration">
-                                                <img class="image" lang="fr" alt="Shampooing" src="<?php  echo($produit[$cle]['images']);  ?>"/>
+                                            <a class="link" href="detail.php?id=<?php echo($article['id']); ?>" title="Voir la fiche de Shampooing technique après coloration">
+                                                <img class="image" alt="Shampooing" src="<?php  echo($produit[$cle]['images']);  ?>"/>
                                             </a>
                                         </div>
-                                        <input id="cho001" class="product-selector" type="checkbox" value="4296" name="catalogParam[selected_product][4296]" title="">
+  <input id="cho001" class="product-selector" type="checkbox" value="<?php echo($article['id']); ?>" name="<?php echo($article['id']); ?>" title="Ajouter a Panier.">
                                     </div>
-                                    <h2><a class="link" href="" title="Voir la fiche de Shampooing technique après coloration">
-                                            <?php     echo($produit[$cle]['description']); ?></a> - <?php echo($produit[$cle]['nom']) ?></h2>
+                                    <h2><a class="link" href="detail.php?id=<?php echo($cle); ?>" title="Voir la fiche de Shampooing technique après coloration"><?php     echo($produit[$cle]['description']); ?></a> - <?php echo($produit[$cle]['nom']) ?></h2>
                                     À partir de
                                     <div>
                                         <div class="tal">   </div>
                                         <div class="tar">
-                                            <strong><?php echo($produit[$cle]['prix']) ?> €</strong>
-                                            <a class="linkFixedTip" href="" title="Voir le produit">
+                                            <strong><?php echo($article['prix']) ?> €</strong>
+                                            <a class="linkFixedTip" href="detail.php?id=<?php echo($article['id']); ?>" title="Voir le produit">
                                                 <img src="assets/images/picto-fleche_bleue.png" alt="">
                                             </a>
                                         </div>
@@ -64,7 +181,7 @@
                                 </li>
                             <?php }  ?>
                             </ol>
-
+		<input id="submitBt" class="submitBt" type="submit" name="panier" value="Panier" /><input id="submitBt" class="submitBt" name="acheter" type="submit" value="Acheter" />
                         </form>
                     </div>
 
@@ -80,3 +197,5 @@
 
     </body>
 </html>
+ 
+	

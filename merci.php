@@ -1,3 +1,25 @@
+
+<?php
+	If(isset($_POST[''])){
+	$nom = $_POST['prenom'];
+	// echo($nom);
+		 
+	 $to= 'edidik85@gmail.com';
+     $subject='Merci '.$nom.', pour votre inscription / Message et Commenter !';
+     $message='Bonjour '.$nom.'!/n Ce message vous est automatiquement envoyer afin de confirmer votre inscription aux site du salon Reviera.com';
+     $headers='From: france1@mail.bg' . "\r\n" .
+     'Reply-To: edidik85@gmail.com' . "\r\n" .
+     'X-Mailer: PHP/';// . phpversion();
+
+     mail('edidik85@gmail.com', $subject, $message, $headers);
+		
+		
+	}
+	
+
+     
+ ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
     <head>
@@ -38,7 +60,7 @@
                     <div class="panel" id="panel-1">
                         <div class="form-wrapper">
                             <div id="form-container">
-                               <p class="salon-merci">Votre mesage est bien Recue ....Merci!</p>
+                               <p class="salon-merci">Merci <?php echo($_POST['prenom']); ?> ! Votre mesage est bien Recue.</p>
                             </div>
                         </div>
                      </div>

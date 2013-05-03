@@ -1,3 +1,10 @@
+<?php 
+		session_start();  
+
+?>
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
     <head>
@@ -11,7 +18,7 @@
     </head>
 	
     <body>
-     
+        <!--google analysics   script-->
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-39033374-1']);
@@ -35,34 +42,34 @@
                 <p class="salon-text1">Vous cherchez un salon dynamique, professionnel avec une réputation d’excellence?</p>
 
                 <div id="form-container">
-                    <form action="merci.html" method="post"  id="commentForm">
+                    <form action="merci.php?merci=1" method="POST"  id="commentForm">
                         <fieldset class="fieldset-container">
                             <legend class="definition-legend">Laissez nous votre commenter ?</legend>
                             <ul>
                                 <li>
                                     <ul class="colorActiv">
                                         <li class="li_label"><label>Prénom :</label></li>
-                                        <li><input type="text" name="user[lastname]" class="required"/></li>
+                                        <li><input type="text" name="prenom" class="required"/></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul class="colorActiv">
                                         <li class="li_label"><label>Nom :</label></li>
-                                        <li><input  type="text" name="user[name]"/></li>
+                                        <li><input  type="text" name="nom"/></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </li>
                                 <li>
                                     <ul class="colorActiv">
                                         <li class="li_label"><label>Votre Age :</label></li>
-                                        <li><input   type="text" name="user[old]"/></li>
+                                        <li><input   type="text" name="age"/></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </li>
                                 <li>
                                     <ul class="colorActiv">
                                         <li class="li_label"><label>eMail :</label></li>
-                                        <li><input   type="text" name="user[email]"/></li>
+                                        <li><input   type="text" name="email"/></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </li>

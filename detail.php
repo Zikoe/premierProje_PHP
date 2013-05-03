@@ -1,8 +1,19 @@
 <?php
    
     require_once('Php-Produite/infoTableau.inc');
-
+	require_once('SQL.php');  
+	session_start(); 
+	
+	
     $idProduite = $_GET['id'];
+/*
+	//// charcher le produite choisise base sur son id:
+	foreach($shampoing as $cle=>$article){   if($cle == $idProduite ){ $produitDetaile = $article; 	 }    	}
+	foreach($mousses as $cle=>$article){   if($cle == $idProduite ){ $produitDetaile = $article; 	 }    	}
+*/		
+
+	$produitDetaile = selectProduitId($idProduite);
+    var_dump($produitDetaile);	    
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -44,15 +55,15 @@
 
                     <div id="form-container-produite">
                         <form action="#product-list-title" method="post">
-                            <h1 class="shompoing-titre"><?php echo($produit[$idProduite]['description']); ?></h1>
+                            <h1 class="shompoing-titre"><?php echo($produitDetaile['description']); ?></h1>
                             <div id="left-container">
-                                <img class="image" lang="fr" alt="Shampooing" src="<?php  echo($produit[$idProduite]['imagesBig']);  ?>"/>
+                                <img class="image" lang="fr" alt="Shampooing" src="<?php  echo($produitDetaile['imagesBig']);  ?>"/>
                             </div>
                             <div id="right-container">
                                 <div class="subtitle">Le produit</div>
                             </div>
                             <div id="footer-container">
-                                <?php echo($produit[$idProduite]['definition']);  ?>
+                                <?php echo($produitDetaile['definition']);  ?>
                             </div>
                         </form>
                     </div>

@@ -37,12 +37,26 @@
     padding-top: 2px;
     color: #4ac135;
     font-size: 0.99em;
-    font-weight: bold;
+    font-weight: bold;	
+	text-decoration: none;
 }
+
 .link-scart-bullet #spanConect{
     padding-top: 0px;
     color: #4ac135;
 }
+.link-scart-bullet #spanDeconexion{
+	font-size:1.17em; 
+	color: red;
+	top: -1px;
+	margin-left: 2px;
+	text-transform: none;
+}
+#shopping_cart #spanPanier{
+	 color:#17b032;
+	 font-size:1.27em;
+ }
+
 #shopping_cart_wrapper span{
     margin-left: 10px;
     position: relative;
@@ -606,7 +620,7 @@ div#menu{
 #form-container-login{
 	background-color:#f7efff;
     width: 650px;
-    height: 640px;
+    height: 710px;
     margin: 50px auto;
     padding-top: 20px;
     border-radius: 30px 30px 30px 30px;
@@ -630,7 +644,9 @@ div#menu{
 	background-color: #30fe7d;
 	color:blue;
 }
-
+#submitBt{
+	left:110px;
+}
 .definition-login{
 	margin-bottom: 10px;
 	font-size: 17px;
@@ -666,7 +682,13 @@ div#menu{
 	color:blue;	
 }
 
-
+.affichageLoginNon{
+	text-align: center;
+    margin: 0 ;
+    color: red ;
+    font-size: 36px;
+    font-style: italic;
+}
 /*==========================================  inscription.php ============================================================*/
 .fieldset-container-inscription{
     color: #8c8d91;    
@@ -683,8 +705,248 @@ div#menu{
     font-size: 18px;
     font-style: italic;
 }
-.definition-legend-inscription{
-	 font-size: 22px;
+.definition-legend-inscription{	 font-size: 22px; }
+
+
+/*===============================================   utilisateur.php   =======================================================*/
+
+#main-container #salon-textTitre {
+	text-align: center;
+    margin: 0 0 10px ;
+    color: #676a71;
+    font-size: 38px;
+    font-style: italic;
+}
+.salon-text-utilisateur{
+	text-align: center;
+    margin: 15px 0 ;
+    color: #888f03;
+    font-size: 33px;
+    font-style: italic;
+}
+#lienA{	 text-decoration: none; }
+
+.fieldset-container-utilisateur{
+	padding: 20px;
+	width: 550px;
+	margin: 55px auto;
+	border-radius: 20px;
+	
 }
 
+.fieldset-container-utilisateur table{
+	border: 1px solid #808080;
+    margin-left: 37px;
+    padding: 2px;
+	
+}
 
+.fieldset-container-utilisateur ul li{	
+ 	color: #2E2701;
+    display: block;
+}
+.fieldset-container-utilisateur .group{  color: #730000;  }
+
+
+.fieldset-container-utilisateur .titreNom {
+    background-color: #D1D6FE;
+    color: #8A7902;
+    font-weight: bold;
+}
+#div-infoTextUser{
+	width: 600px;
+	margin: 20px auto;
+	text-align: center;
+}
+#infoTextUser {
+    border-bottom: 2px dotted #2ea1fc;
+    color: #188f87;
+    font-size: 23px;
+    font-style: oblique;
+	
+}
+.fieldset-container-utilisateur table tr td {
+    border: 1px solid #808080;
+    padding: 4px;
+}
+/*========================================== pages:   acheter.php ===========================================*/
+.span9{
+	position:relative;
+}
+.fonce {
+    background-color: #ff00ff;
+}
+.clair {
+    background-color: #00ff00;
+}
+ #element2 .label1 {
+    width: 150px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+
+}
+ .visacard, 
+ .mastercard {
+    display: none;
+}
+#element2 div div:nth-child(odd) {
+    background-color: #eeeeee;
+}
+input.error {
+    border: 1px solid red;
+}
+label.error {
+    color: #ff0000;
+}
+#confirmerPeyerCart{
+	width: 200px;
+	height: 30px;
+	margin: 20px auto 10px;
+	text-align: center;
+	background-color: #1cdd4d;
+	border-radius: 10px;
+	
+}
+
+#confirmerPeyerCart a{
+	font-size: 23px;
+	color: snow;
+}
+
+/***********************************  Pages: panier.php  **********************************************************/
+#form-container-panier{
+	background-color:#f7efff;
+    width: 850px;  
+    margin: 50px auto;
+    padding: 20px 5px 5px;
+    border-radius: 30px 30px 30px 30px;
+}
+.fieldset-container-utilisateur-panier{
+	padding: 5px 5px 0px;
+	width: 680px;
+	margin: 55px auto ;
+	border-radius: 20px;
+}
+#circulairePropo {
+    height: 175px;
+    width: 100%;
+}
+
+#circulairePropo ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0 5px 5px -10px;
+    padding: 0 0px 5px -20px;
+    position: relative;
+}
+#circulairePropo ul li {
+    border-bottom: 2px dotted #808080;
+}
+#form-container-panier h2 {
+    background: none repeat scroll 0 0 #2EA1FC;
+    color: #FFFAFA;
+    font-size: 17px;
+    margin-top: 70px;
+    padding: 5px 10px;
+}
+
+#form-container-panier #spanPrix{
+	color: red;
+	position: absolute;
+	font-size: 23px;
+	left: 140px;
+	bottom: 28px;
+}
+
+#circulairePropo ul li img {
+    border: 1px solid yellow;
+    float: left;
+    height: 160px;
+    margin: 3px;
+    padding: 5px;
+    width: 190px;
+}
+#circulairePropo a {
+    bottom: 32px;
+    font-size: 17px;
+    left: 10px;
+    position: absolute;
+}
+#circulairePropo #ajouter-panier{
+	bottom: 5px;
+	left: 70px;
+}
+#sous-main-container ul, #sous-main-container li {
+    list-style-type: none;
+}
+#sous-main-container h2 {
+    background: none repeat scroll 0 0 #2EA1FC;
+    color: #FFFAFA;
+    font-size: 17px;
+    margin-top: 70px;
+    padding: 5px 10px;
+}
+
+#circulairePropo ul li h2 {
+    margin: 3px 0 8px 225px;
+}
+
+#circulairePropo ul li ul {
+    float: left;
+    height: 170px;
+    margin: 0;
+    padding: 0 0 25px 40px;
+    width: 55%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#circulairePropo ul li ul li {
+    list-style-type: disc;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+.circulairePropoDetaile:hover {
+    background-color: #f0f8ff;
+}
+ #form-container-panier #soldes{
+	text-align: center;
+	font-size: 30px;
+	color:#3d0587 ;	
+	height: 40px;
+	width: 91%;
+	margin: 10px auto;
+	background-color: #d5c7fe;
+}
+ #form-container-panier #confirmer { 	
+	position: relative;
+	text-align: center;
+	font-size: 26px;
+	color:snow ;	
+	height: 40px;
+	width: 91%;
+	background-color:#02b95e;
+	border-radius: 0 0 20px 20px;
+	margin: -8px auto;
+}
+ #form-container-panier #confirmer a{
+ 	text-decoration: none;
+	color:snow ;	
+ }
+ 
+ #form-container-panier #anuler{
+ 	position: relative;
+	text-align: center;
+	font-size: 26px;
+	color: snow ;	
+	height: 35px;
+	width: 91%;
+	margin: 45px auto 0;
+	border-radius:  20px 20px 0 0;
+	background-color:#feb4a9;
+ }
+ #form-container-panier #anuler a{
+ 	text-decoration: none;
+	color:red ;	
+ }
