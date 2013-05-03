@@ -1,0 +1,690 @@
+
+#container-search{
+    width:100%;
+    margin: -8px auto 0;
+    height: 51px;
+   // background-color: yellow;
+    background-image:url(../images/separator.gif);
+    border-radius: 0 0  25px 25px;
+}
+#container-search img {
+    width: 25px;
+    height: 29px;
+    padding-top: 5px;
+}
+#container-search #facebook{
+    margin-left: 350px;
+}
+
+#shopping_cart_wrapper{
+    -moz-box-sizing: border-box;
+    background-color: white;
+    float: right;
+    margin-right: 345px;
+    height: 33px;
+    padding: 1px 20px 0;
+    text-align: left;
+    width: 348px;
+    text-align: right;
+}
+#shopping_cart_wrapper #user{
+    width: 23px;
+    height: 28px;
+    border-radius: 6px;
+}
+.link-scart-bullet{
+    float: left;
+    padding-top: 2px;
+    color: #4ac135;
+    font-size: 0.99em;
+    font-weight: bold;
+}
+.link-scart-bullet #spanConect{
+    padding-top: 0px;
+    color: #4ac135;
+}
+#shopping_cart_wrapper span{
+    margin-left: 10px;
+    position: relative;
+    text-transform: uppercase;
+    top: -10px;
+    color: #072434;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+/*============================================================================================================*/
+#page{
+ // background-color: #e5e3e8;
+}
+#container{
+    width:961px;
+    margin: 0 auto;
+    border: 1px solid  #F4F1E9;
+}
+
+#top-container{
+    width: 960px;
+   margin: 0 auto;
+}
+/*======================================= Menu Navigateur ===============================================*/
+#navigation {
+    margin:0;
+    padding: 0;
+    clear:both;
+    width:100%;
+    height:51px;
+    background-image:url(../images/separator.gif);
+    background-repeat:repeat-x left top;
+}
+
+ul.nav-main,
+ul.nav-main li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav-main {
+    position: relative;
+    z-index: 597;
+}
+
+ul.nav-main li:hover > ul {  visibility: visible; }
+
+ul.nav-main li.hover,
+ul.nav-main li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: pointer;
+    background-image: url(../images/dropdown-bg-hover.gif);
+    background-repeat:repeat-x left top;
+}
+
+ul.nav-main li {
+    float:left;
+    display:block;
+    height: 51px;
+    color: #999;
+    font: 14px Arial, Helvetica, sans-serif;
+    background-image: url(../images/separator.gif);
+    background-repeat:repeat-x left top;
+}
+
+ul.nav-main li a {
+    display:block;
+    padding: 16px 16px 0 16px;
+    height: 35px;
+    color: #999;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-decoration:none;
+}
+
+ul.nav-main li a:hover {  color:#000033; }
+
+ul.nav-main li.list { padding-right: 22px; }
+
+ul.nav-sub {
+    visibility: hidden;
+    position: absolute;
+    padding:10px;
+    top: 48px;
+    left: 0;
+    z-index: 598;
+    background-image: url(../images/dropdown-list-bg.gif);
+    background-repeat:repeat-x left top;
+}
+
+ul.nav-sub li {
+    list-style:none;
+    display:block;
+    padding: 0;
+    height: 27px;
+    float: none;
+    width:145px;
+    border-bottom: 1px solid #5a5a5a;
+    background: none;
+}
+
+ul.nav-sub li a {
+    list-style:none;
+    display:block;
+    padding: 6px 5px 6px 5px;
+    height: 15px;
+    float: none;
+    width:145px;
+    background: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+/*========================================================= Fini le menu =======================================*/
+/*==============================================================================================================*/
+#main-container{
+    width: 960px;
+    margin: 0 auto 180px;
+ //   background-color: yellow;
+}
+
+/*== text definition main-container ==*/
+h1,
+.titre-salon,
+.grand-titre{
+    color:#808080;
+    font-size: 45px;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+.grand-titre{ color: #5a5a5a}
+
+
+#main-container p{
+    font-size: 25px;
+    text-align: center;
+}
+
+#main-container .salon-text,
+#main-container .salon-text2 {
+    text-align: justify;
+    margin: 10px 0 ;
+    color: #808080 ;
+    font-size: 18px;
+    font-style: italic;
+}
+#main-container .salon-text2{ text-align: center; }
+
+#main-container .salon-text1,
+#main-container .salon-text3,
+#main-container .salon-text4,
+#main-container .salon-text4,
+#main-container .salon-merci{
+    text-align: center;
+    margin: 0 ;
+    color: #808080 ;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#definision-ecole{ margin-top: 60px;}
+
+#main-container .salon-text3,
+#main-container .salon-text4,
+#main-container .salon-text5,
+#main-container .salon-merci{ font-size: 19px; }
+
+#main-container .salon-text4,
+#main-container .salon-text5,
+#main-container .salon-merci{
+    margin-top: 60px;
+    color: #0d7b71;
+    font-size: 25px;
+}
+
+#main-container .salon-merci{
+    color: #51b058;
+    font-size: 51px;
+    padding: 55px 0 0;
+}
+
+#main-container .salon-text5{
+    font-size: 40px;
+    font-style: italic;
+}
+
+#salon-img{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/***********************************************************************************************************************/
+/**** =====================             Battom container           ====================================********/
+#bottom-container{
+    margin-top: -180px;
+}
+#images-city-container{
+    width: 1100px;
+    margin: 0 auto -5px;
+}
+
+#battom-city-container{
+    height: 135px;
+    padding-top: 15px;
+    background-color: #313131 ;
+}
+
+#footer-menu{
+    width: 1058px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#footer-menu-text{
+    width: 550px;
+    height: 100px;
+   float: left;
+}
+
+#footer-menu ul{
+    margin: 0 ;
+    list-style-type: none;
+    float: left;
+}
+
+#footer-menu ul li{
+    width: 150px;
+    float: left;
+    list-style-type: none;
+}
+#footer-menu ul li ul li{  margin: 0;}
+
+#footer-menu ul li ul li a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#footer-menu h3{
+    color: #FF9714;
+    display: inline;
+}
+
+#div-devlopper ul>li{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+#div-devlopper .devlopper h3{ color: #fff215; }
+
+.devlopper-devinition{
+    font-size: 13px;
+    color: #cef22e;
+}
+.color-devlo{ color: #f27e0d}
+
+/***********************************************************************************************************************/
+/*===============================================   Pages Formulare  !!! ==============================================*/
+#form-container{
+    width: 800px;
+    margin: auto;
+}
+
+.definition-legend{
+    color: #0c4346;
+    font-size: 29px;
+    font-style: italic;
+}
+
+form:hover{ /*    background-color: #fffafa;   */ }
+label{
+    font-size: 16px;
+    color: #0c4346;
+}
+
+label.error {
+    float: none;
+    color: red;
+    padding-left: .5em;
+    vertical-align: top;
+}
+
+input,
+textarea{
+    background: none repeat scroll 0 0 #F1F2F4;
+    border: 1px solid #B6B7B9;
+    border-radius: 5px 5px 5px 5px !important;
+    color: #4B4B4B;
+}
+
+input.error,
+textarea.error,
+input[radio].error{
+    border: 1px solid red;
+}
+
+input:focus, textarea:focus {
+    background: none repeat scroll 0 0 #D9DADC;
+}
+
+.submit-style {
+    background-color: #dcdcdc;
+    border: 1px solid #B6B7B9;
+    border-radius: 50px 50px 50px 50px;
+    color: #4d4a46;
+    cursor: pointer;
+    font-weight: bold;
+    height: 42px;
+    margin: 0 20px 5px 0;
+    padding: 2px 5px;
+    width: 160px;
+}
+
+.submit-style:hover {
+    background-color: #999999;
+    border: 1px solid #1A3957;
+    color: #fffafa;
+}
+
+.submit-style:active {  background-color: #dcdcdc; }
+
+.fieldset-container{
+    color: #B6B7B9;
+    width: 760px;
+    margin: 50px auto 55px;
+    padding: 13px 13px 15px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#bas-addrese{
+    width: 880px;
+    margin: 150px auto;
+    border: 1px solid #808080;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#text-addrese{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#addrese-salon{
+    margin: 10px 10px ;
+    float: left;
+    width: 280px;
+
+}
+#heures-salon{
+    width: 280px;
+    float: right;
+}
+
+#iframe-conteiner{
+    width: 600px;
+    margin:0 auto;
+}
+#iframe-conteiner iframe{
+    left: 10px;
+    width: 600px;
+    height: 300px;
+}
+
+.name-text{
+    text-align: left;
+    color: #4d4a46;
+    border-bottom: 1px solid #B6B7B9 ;
+}
+#addrese-salon .salon-text2{
+    text-align: left;
+    font-size: 15px;
+    font-style: normal;
+    padding:  0;
+}
+
+#heures-salon .salon-text2{
+    color: green;
+    margin: 44px 0  15px 20px;
+    text-align: left;
+    font-style: normal;
+    border-bottom: 1px solid #B6B7B9 ;
+}
+
+#heures-salon ul{
+    list-style-type: none;
+    padding: 0 0 15px 13px;
+}
+
+#heures-salon .li-jour{
+    width: 120px ;
+    padding: 0 0 1px;
+    float: left;
+    text-align: left;
+    list-style-type: none;
+}
+
+#dernier-tel.salon-text2{
+    padding:  0 0 10px;
+    border-bottom:  1px solid #B6B7B9;
+}
+
+#heures-salon  .dernier-jour{
+    padding:  0 0 27px 13px;
+    border-bottom:  1px solid #B6B7B9;
+}
+
+.rouge{ color: #cd1042; }
+
+/***********************************************************************************************************************/
+/*===============================================   Pages Formulare   nouvellle deuxiem!!! ============================*/
+#form-container ul,
+#form-container ul li {
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#form-container > form > ul > li {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+#form-container ul li ul li,
+#form-container ul li ul li ul li {
+    width: 45%;
+    float: left;
+}
+
+#container-pays img{  margin-left: 349px; }
+
+/*===============================================  Pages Galerie ==================================================== */
+#galerie{  height: 700px; }
+
+#photo-conteiner{
+    width: 580px;
+    margin: 30px auto 280px;
+}
+
+div#galeri1 { padding:0px; }
+
+#bouton-container{
+    width: 200px;
+    margin: 30px auto;
+}
+
+#Homme,
+#Femme{ margin-left: 24px; }
+
+div#galeri2{ padding:0px;  display: none; }
+
+div#menu{
+    margin:0px;
+    padding:0px;
+}
+
+/*   Netoyer le float: ..............................................................................................*/
+.clearfix{
+    clear: both;
+}
+
+
+/*================================================= Pages Produite =================================================*/
+#salonC{ border-radius: 25px 25px 0 0;}
+
+#form-container-produite{
+    background-color:#f7efff;
+    width: 650px;
+    height: 740px;
+    margin: 50px auto;
+    padding-top: 20px;
+    border-radius: 30px 30px 30px 30px;
+}
+#form-container-produite ol{  list-style-type: none;}
+
+#form-container-produite ol>li{
+    background: url("/assets/images/bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #D8C6CF;
+    border-radius: 9px;
+    color: #7E5274;
+    float: left;
+    font-size: 15px;
+    margin: 0 11px 13px 0;
+    padding: 9px;
+    width: 160px;
+}
+.imageandcheckbox{
+    width: 160px;
+    margin: 0 auto 2px;
+}
+
+#cho001{
+    position: absolute;
+    margin-top: -20px;
+}
+
+#form-container-produite h2,
+#form-container-produite a{
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    font-weight:bold;
+    margin: 0 auto 4px;
+    color: #7E5274
+}
+#form-container-produite a{
+    text-decoration: none;
+}
+
+#form-container-produite strong{
+    color: #F32F9D;
+    font-size: 24px;
+    font-weight: bold;
+}
+#form-container-produite .tar{
+    text-align: right ;
+}
+
+/*========================================    page DETAIL.PHP =====================================================*/
+.shompoing-titre{
+    color: #7E5274;
+    font-size: 30px;
+
+}
+#left-container{
+    margin-left: 20px;
+    width: 370px;
+    height: 365px;
+    float: left;
+ //   border: 1px solid red;
+}
+
+#right-container{
+    margin-left: 2px;
+    width: 230px;
+    height: 365px;
+    float: left;
+ //   border: 1px solid red;
+}
+#footer-container{
+    color: #808080;
+    font-size: 16px;
+    padding: 20px;
+   text-align: inherit;
+   width: 585px;
+    height: 150px;
+   margin:385px auto 0;
+//   border: 1px solid red;
+}
+
+.subtitle{
+    background: url("../images/puce-subtitle.jpg") no-repeat scroll 0 8px ;
+    color: #F32F9D;
+    font-size: 28px;
+    line-height: 1;
+    margin-bottom: 4px;
+    padding-left: 20px;
+}
+
+/*===========================================    login.php   ==========================================================*/
+#form-container-login{
+	background-color:#f7efff;
+    width: 650px;
+    height: 640px;
+    margin: 50px auto;
+    padding-top: 20px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.fieldset-container-login{
+    color: #B6B7B9;
+    
+	width: 300px;
+    margin: 50px auto 55px;
+    padding: 13px 13px 15px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.resetBt{
+	background-color: #ea4224;
+	color:snow;
+}
+.submitBt{
+	margin-left: 6px;
+	background-color: #30fe7d;
+	color:blue;
+}
+
+.definition-login{
+	margin-bottom: 10px;
+	font-size: 17px;
+	color:#676a71;
+}
+	
+
+#form-container-produite table{
+	margin-top: 20px;
+}
+
+#login-separ{
+	width: 80%;
+	height:5px;
+	margin: 0 auto;
+	background-color: #676a71;
+	border-radius: 5px;
+	
+}
+
+#submitCreer{
+	margin-top:5px;
+	
+}
+#table-cree  {
+		float: right;
+}
+#submitCreer {
+	width: 295px;
+	height:35px;
+	background-color: #30fe7d;
+	border-radius: 25px;
+	color:blue;	
+}
+
+
+/*==========================================  inscription.php ============================================================*/
+.fieldset-container-inscription{
+    color: #8c8d91;    
+	width: 300px;
+    margin: 50px auto 55px;
+    padding: 13px 13px 15px;
+    border-radius: 20px 20px 20px 20px;
+	
+}
+
+.definition-legend-inscription,
+.definition-legend-inscription1{
+	color: #0C4346;
+    font-size: 18px;
+    font-style: italic;
+}
+.definition-legend-inscription{
+	 font-size: 22px;
+}
+
+
