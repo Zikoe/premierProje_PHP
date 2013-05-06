@@ -6,6 +6,7 @@
 		
 		if(isset($_SESSION['utilisateur'])){			
 			$tabUser =  $_SESSION['utilisateur'];
+			var_dump($tabUser);
 			$nomUser = $tabUser['nom'];
 			$textCompte = "Bonjour ".$nomUser.".";
 			$textCompteBienvenue = "Bienvenue a la Boutique Salon Reviera!";
@@ -84,11 +85,12 @@
                                 </tr>
 								<tr>
                                     <td  class='titreNom' >Favorite prefere:</td>
-                                    <td><?php      $favoritePrefere = "";												   
-												   foreach($tabUser['favorite'] as $cle=>$valeur){
-												   	 $favoritePrefere.=$valeur.", "; 
+                                    <td><?php   	
+										
+												   if($tabUser['favorite'] == ''){ $favoritePrefere= "Aucun Favorite Choissise!"; }
+												   else{
+												   	$favoritePrefere = $tabUser['favorite'];
 												   }
-												   if($favoritePrefere==""){ $favoritePrefere= "Aucun Favorite Choissise!"; }
 												   echo($favoritePrefere);
 												      ?></td>	
                                 </tr>       

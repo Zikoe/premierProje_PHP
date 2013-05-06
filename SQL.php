@@ -73,22 +73,22 @@ function updateProduit($id, $nom, $prix ... ){
 
 */
 
-function selectUserEmail($eMail){  /// $eMail = email  de user,   exp: $bob@mail.com
-	
+function selectUserEmail($eMail, $password){  /// $eMail = email  de user,   exp: $bob@mail.com	
 	$con = connectDB();  /// je appele le conexion.
-
 	/// var_dump($con); /// si pas 'null' dit il ya erreur!!!!
-	$result = mysqli_query($con, "SELECT * FROM users  WHERE users.email = '".$eMail."'");
+	$result = mysqli_query($con, "SELECT * FROM users  WHERE users.email = '".$eMail."' AND users.password = '".$password."'");
+	///                                        tab-users     tab.colon   =  'mail_exact_user';
 	$i = 0;
 	while($row = mysqli_fetch_array($result)){
-		$produit[$i] = $row;
+		$user = $row;
 		$i++;
+	}	
+	mysqli_close($con);	
+	///var_dump($user);   //// dans user (tableau array) il a de user qui on charche avec son user ! 
+	if($i == 0 ){
+		return ; //// il return rien
 	}
-	
-	mysqli_close($con);
-	
-	///var_dump($produit);   //// dans produit (tableau array) il tout donne pour type on choisise/ ou champoing ou mousse! 
-	return $produit;	
-	
+	return $user;	
 }
+
 ?>

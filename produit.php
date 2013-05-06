@@ -3,10 +3,12 @@
 	require_once('SQL.php');   
 	session_start();
 	
-	$mailUser = 'bob@mail.ca';
-	$tabUs = selectUserEmail($mailUser);
-	var_dump($tabUs);
-	
+/*	
+	$password= '123456';
+	$mailUser = 'bob@mail.ca';        //// test pour functionalite de nouvelle function dans SQL.php
+	$tabUs = selectUserEmail($mailUser , $password);
+ 	var_dump($tabUs);                                                   
+*/	
 //	var_dump($_SESSION['panier']);
 	
 	$produitTab = array(); 

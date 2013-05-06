@@ -1,6 +1,6 @@
 <?php 
 	include_once('Php-Produite/infoTableau.inc');
-	
+	require_once('SQL.php');  
 	session_start();  
  	  			
 	if(isset($_GET['log'])){ $logonNonPanier = "et pour voir le panier vous douver conecter ?";  	}
@@ -27,10 +27,24 @@
  	
 	
 	if(isset($_POST['loginBt'])){
-		
 			$recupererMail = $_POST['login'];	
-			$recupererPWD = $_POST['pwd'];			
-						
+			$recupererPWD = $_POST['pwd'];	
+			
+			$tabUser = selectUserEmail($recupererMail, $recupererPWD);
+			
+			if($tabUser == null){
+				$textCompte = "";
+				$logonNon = "Dessole Votre Conte User N'existe Pas !" ;
+			}
+			else{
+				$_SESSION['utilisateur'] = $tabUser; /// je cree le  nouvelle  sesion
+				if (!$tabUser['admin']){ 	 header("Location: utilisateur.php");	}
+				else{	header("Location: admin.php");	}		
+				
+			}
+			
+					
+			/*      /// procedur pour php pour login			
 			/// trete le fichier  'user.txt'   :   				
 			$fichier_contunu = open_file("Php-Produite/data/user.txt"); /// pour verification je uver le 'user.txt'
 			$users = unserialize($fichier_contunu);
@@ -76,7 +90,7 @@
 				
 			
 			}
-			
+			*/
 	}
 	
 		if(isset($_GET['panier'])){ /// si il pas conecter on antre choisise dans panier
