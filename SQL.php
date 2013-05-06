@@ -1,22 +1,25 @@
 <?php
 	
-function connectDB(){
+function connectDB(){    /// function pour connexion
 	// conection de basse de donne                     
 	$con=mysqli_connect("localhost", "root", "", "basedonetp");
-	
+	//                  ou IP de server /root'racin'/ nom de basedonne
 	//// gestion d'erreur: 
 	if (mysqli_connect_errno())	{
-		echo "Failed to connect to MySQL : " . mysqli_connect_error();
+		echo "Failed to connect to MySQL : " . mysqli_connect_error();         
+		echo('<br/>');
+		echo "Connect inposible avec server  MySQL : " . mysqli_connect_error();
 		return;	
 	}
+	
 	return $con;
 }
 
 function selectProduitType($x){  /// $x = type de produit,   exp: $shompoing ou $mousse
 	
 	$con = connectDB();  /// je appele le conexion.
-	/// 
-	// var_dump($con); /// si pas null dit il ya erreur
+
+	/// var_dump($con); /// si pas 'null' dit il ya erreur!!!!
 	$result = mysqli_query($con, "SELECT * FROM produit WHERE produit.typeProduit = '".$x."'");
 	$i = 0;
 	while($row = mysqli_fetch_array($result)){
@@ -26,10 +29,11 @@ function selectProduitType($x){  /// $x = type de produit,   exp: $shompoing ou 
 	
 	mysqli_close($con);
 	
-	//var_dump($produit);
+	///var_dump($produit);   //// dans produit (tableau array) il tout donne pour type on choisise/ ou champoing ou mousse! 
 	return $produit;	
 	
 }
+
 
 function selectProduitId($id){	
 	
@@ -68,4 +72,23 @@ function updateProduit($id, $nom, $prix ... ){
 //// fair un delete de ligne
 
 */
+
+function selectUserEmail($eMail){  /// $eMail = email  de user,   exp: $bob@mail.com
+	
+	$con = connectDB();  /// je appele le conexion.
+
+	/// var_dump($con); /// si pas 'null' dit il ya erreur!!!!
+	$result = mysqli_query($con, "SELECT * FROM users  WHERE users.email = '".$eMail."'");
+	$i = 0;
+	while($row = mysqli_fetch_array($result)){
+		$produit[$i] = $row;
+		$i++;
+	}
+	
+	mysqli_close($con);
+	
+	///var_dump($produit);   //// dans produit (tableau array) il tout donne pour type on choisise/ ou champoing ou mousse! 
+	return $produit;	
+	
+}
 ?>

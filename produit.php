@@ -3,6 +3,10 @@
 	require_once('SQL.php');   
 	session_start();
 	
+	$mailUser = 'bob@mail.ca';
+	$tabUs = selectUserEmail($mailUser);
+	var_dump($tabUs);
+	
 //	var_dump($_SESSION['panier']);
 	
 	$produitTab = array(); 
