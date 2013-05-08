@@ -1,8 +1,11 @@
 <?php
 	
 function connectDB(){    /// function pour connexion
-	// conection de basse de donne                     
-	$con=mysqli_connect("localhost", "root", "", "basedonetp");
+	// conection de basse de donne 
+	//                 "mysql1.000webhost.com" ,"a9344992_edis" , "mon_mot_passe", "a9344992_bd"                       
+	$con=mysqli_connect("mysql1.000webhost.com", "a9344992_edis", "Edis12131985.../", "a9344992_bd");  //// connexion sur phpAdmin a 000WEBHOST.
+
+//	$con=mysqli_connect("localhost", "root", "", "basedonetp");   //// connexion sur mon phpAdmin Local
 	//                  ou IP de server /root'racin'/ nom de basedonne
 	//// gestion d'erreur: 
 	if (mysqli_connect_errno())	{

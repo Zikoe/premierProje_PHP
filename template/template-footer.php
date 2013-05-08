@@ -40,8 +40,7 @@
                             <ul>
                                 <li>
                                     <ul  class="devlopper">
-                                        <li><h3>Cette Site est Developpe par
-                                            <span class="color-devlo">  Christobald </span>,<span class="color-devlo">Michael </span> et <span class="color-devlo"> Edis.</span></h3></li>
+                                        <li><h3>Cette Site est Developpe par <span class="color-devlo">  Edis Dikmeme. </span></h3></li>
                                         <li class="devlopper-devinition">2013 All Rights Reserved. Montréal  Québec Canada</li>
                                         <li class="devlopper-devinition">develo@gmail.com</li>
                                     </ul>
