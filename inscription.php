@@ -31,71 +31,18 @@
 		$tabUser = selectUser($email);
 		if($tabUser != null){
 				$textCompte = "";
-				$logonNon = "Dessole Votre Creeation Compte Refuse!" ;
-				$logonNonPanier ="Reseyer S.V.P avec diferent eMail et Password";
+				$logonNon = "Dessole Votre Creeation Compte Refuse! Email existe!" ;
+				$logonNonPanier ="Reseyer S.V.P avec diferent eMail.";
 			}
 			else{/// si le user ne existe pas :
 				$tabUser = creationUser($dateInscription, $sexe, $nom, $prenom, $email, $password, $phone, $favorite);
-				$_SESSION['utilisateur'] = $tabUser; /// je cree le  nouvelle  sesion
+				$_SESSION['utilisateur'] = $tabUser; /// je cree le  nouvelle  sesion avec user Nouvelle vien de inscrire!
 				
 			header("Location: utilisateur.php");				
 			}
 		
 	}
-		
-		
-		
-		
-		
-		/*	$recupererMail = $_POST['email'];
-		    $existe = 0;
-		  	foreach($users as $id => $user){
-		  		if($user['email'] == $recupererMail ){
-					echo('<br/>'); echo('Desole Votre Mail de nouvelle User est Existe!!!!!!!!!'); echo('<br/>');
-					echo('Resseyer a nouvelle ?');echo('<br/>');echo('#############################################################');
-					$existe++;
-					break ;			
-				}		
-			}
-					
-			if($existe == 0){
-				/// je rajouter le nouvel USER  dans tableau:		
-					$userRecuperer = array();
-					$userRecuperer['dateInscription'] = $_POST['date'];
-					if(isset($_POST['homme'])){ $userRecuperer['sexe'] = 'homme'; }
-					if(isset($_POST['famme'])){ $userRecuperer['sexe'] = 'femme'; }
-					$userRecuperer['nom'] = $_POST['nom'];
-					$userRecuperer['prenom'] = $_POST['prenom'];
-					$userRecuperer['email'] = $_POST['email'];
-					$userRecuperer['password'] = $_POST['password'];
-							
-					$favoriteUser = array();		
-					if(isset( $_POST['Shampoing'])){ $favoriteUser[$_POST['Shampoing']] = "Shampoing"; 	}
-					if(isset( $_POST['Laque'])){ $favoriteUser[$_POST['Laque']] = "Laque"; 	}
-					if(isset( $_POST['Mousse'])){ $favoriteUser[$_POST['Mousse']] = "Mousse";	}
-					if(isset( $_POST['Volumisant'])){ $favoriteUser[$_POST['Volumisant']] = "Volumisant";		}
-					if(isset( $_POST['Gel'])){ $favoriteUser[$_POST['Gel']] = "Gel"; 	}
-					if(isset( $_POST['Soin'])){ $favoriteUser[$_POST['Soin']] = "Soin";	}				
-					
-					$userRecuperer['favorite'] = $favoriteUser;		
-
-					/// trete le fichier  'user.txt'   :   	
-					$contenu_du_tableau = serialize($users);			
-					$fichier_contunu = open_file("Php-Produite/data/user.txt");
-					$users = unserialize($fichier_contunu);
-					$nombreUsers = count($users);//  echo("NOmbre Users:::::::::::".$nombreUsers);  echo('<br/>');
-					$nombreUsers++ ; /// encrementer pour prochen ID de users! 
-					$users[$nombreUsers] = $userRecuperer;
-				//	var_dump($users);  // afficher le tablea apres ajoiuter le etudiante. 
-					save_file("Php-Produite/data/user.txt", serialize($users));	
-				//	echo(serialize($users)); //// afficher le fichier serialise apres souvgarde! 					
-				    
-					header("Location: login.php");
-			}  */
-			
-			
 	
- 
  ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

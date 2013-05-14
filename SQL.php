@@ -44,26 +44,24 @@ function selectProduitId($id){
 		$produit = $row;
 	}
 	
-	mysqli_close($con);
-	
+	mysqli_close($con);	
 	//var_dump($produit);
 	return $produit;	
 }
 
 
-////  sur Creation On insere ajouter User :
+////  sur Creation On insere ajouter User Nouvelle :
 function creationUser($dateInscription, $sexe, $nom, $prenom, $email, $password, $phone, $favorite){ //// 9 colone qui existe/souf le colon admin je ne pas declare comme variable:
 	
 	
 	$con = connectDB();  /// je appele le conexion.
 	$result = mysqli_query($con, "INSERT INTO users VALUES ('".$dateInscription."','".$sexe."','".$nom."','".$prenom."','".$email."','".$password."','".$phone."','".$favorite."','".FALSE."')");
 	///var_dump($result);
-//	$user = selectUserEmail($email, $password);
+	$user = selectUserEmail($email, $password); /// on charcher le user pour envoyer  son table array/ Information.
 	///var_dump($user);
 	mysqli_close($con);//// pour fermer envite le Hack
-	
-//	return $user;
-	return $result;
+
+	return $user;
 }
 
 
@@ -87,6 +85,7 @@ function updateProduit($id, $nom, $prix ... ){
 //// fair un delete de ligne
 
 */
+
 function selectUser($eMail){
 	$con = connectDB();  /// je appele le conexion.
 	/// var_dump($con); /// si pas 'null' dit il ya erreur!!!!

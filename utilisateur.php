@@ -6,7 +6,8 @@
 		
 		if(isset($_SESSION['utilisateur'])){			
 			$tabUser =  $_SESSION['utilisateur'];
-			var_dump($tabUser);
+						
+		//	var_dump($tabUser);
 			$nomUser = $tabUser['nom'];
 			$textCompte = "Bonjour ".$nomUser.".";
 			$textCompteBienvenue = "Bienvenue a la Boutique Salon Reviera!";
