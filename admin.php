@@ -2,6 +2,7 @@
 	session_start();  
 		
 	include_once('Php-Produite/infoTableau.inc');
+	require_once('SQL.php');   //// SQL base de Donne
 	
 	if(isset($_SESSION['utilisateur'])){	
 		$tabUser =  $_SESSION['utilisateur'];
@@ -11,6 +12,9 @@
 		$textCompteBienvenue = "Bon journee sur poste de travaille et Sans erreur!";
 	
 	}
+	
+	
+	
 	
  ?>
 
@@ -57,73 +61,56 @@
 						<div id="div-infoTextUser">
 						 	<span id="infoTextUser" >Votre information registre Actuel jusqua <?php echo(dateHeurCouront()); ?> </span>
                     	</div>
-						<fieldset class="fieldset-container-utilisateur">
-							 <legend class="definition-legend">Information detaille </legend>
-							<ul>		
-		                        <li>Nom : <span class="group" ><?php echo($tabUser['nom']); ?></span></li>
-		                        <li>Prenom : <span class="group" ><?php echo($tabUser['prenom']); ?></span></li>
-							</ul>
-							
-							<table id="tab-static">	
-                               <?php   $prixTotal = 0;
-							   			/// trete le fichier  'user.txt'   :   		
-									$fichier_contunu = open_file("Php-Produite/data/listeComandeSociete.txt");
-									if(filesize("Php-Produite/data/listeComandeSociete.txt")>0){
-										$usersClient = unserialize($fichier_contunu);	}
-									else{ 	$usersClient = array(); }
-								//	$usersClient[] = $clientNouvel;	
-									foreach($usersClient as $cle =>$valeur){		
-										$prixTotal.= $valeur['prixTotalCommande'];
-									}
-									
-									var_dump($usersClient);
-									save_file("Php-Produite/data/listeComandeSociete.txt", serialize($usersClient));							   ?>
-							    <tr>
-                                    <td  class='titreNom' >Nombre Comande</td>
-                                    <td><?php      echo(count($usersClient));     ?></td>	
-                                </tr>
-								 <tr>
-                                    <td  class='titreNom' >Prix Total de Commande :</td>
-                                    <td><?php    /// $prixTotal = float($prixTotal);
-													echo($prixTotal." $");     ?></td>	
-                                </tr>
-								
-								              
-							<?php    ?>
-	                        </table>
-						</fieldset>
+						
 						
 						<fieldset class="fieldset-container-utilisateur">
 							 <legend class="definition-legend">Information detaille </legend>
-							<ul>		
-		                        <li>Nom : <span class="group" ><?php echo($tabUser['nom']); ?></span></li>
-		                        <li>Prenom : <span class="group" ><?php echo($tabUser['prenom']); ?></span></li>
-							</ul>
 							
-							<table id="tab-static">	
+							 <table id="tab-static">	
+								<!--<tr>
+                                    <td  class='titreNom' >Dernier Log :</td>
+                                    <td><?php      echo($tabUser['dernierLog']);     ?></td>	
+                                </tr>     -->   
                                 <tr>
-                                    <td  class='titreNom' >Date Inscription:</td>
+                                    <td  class='titreNom' >Images :</td>
                                     <td><?php      echo($tabUser['dateInscription']);     ?></td>	
                                 </tr>  
 								<tr>
-                                    <td  class='titreNom' >Email Courant:</td>
+                                    <td  class='titreNom' > Nom :</td>
                                     <td><?php      echo($tabUser['email']);     ?></td>	
                                 </tr>
 								<tr>
-                                    <td  class='titreNom' >Favorite prefere:</td>
-                                    <td><?php      $favoritePrefere = "";												   
-												   foreach($tabUser['favorite'] as $cle=>$valeur){
-												   	 $favoritePrefere.=$valeur.", "; 
+                                    <td  class='titreNom' > Prix :</td>
+                                    <td><?php   	
+										
+												   if($tabUser['favorite'] == ''){ $favoritePrefere= "Aucun Favorite Choissise!"; }
+												   else{
+												   	$favoritePrefere = $tabUser['favorite'];
 												   }
-												   if($favoritePrefere==""){ $favoritePrefere= "Aucun Favorite Choissise!"; }
 												   echo($favoritePrefere);
 												      ?></td>	
-                                </tr>       
-								
+                                </tr> 
+								<tr>
+                                    <td  class='titreNom' >Disponibilite :</td>
+                                    <td><?php      echo($tabUser['email']);     ?></td>	
+                                </tr>      
+								<tr>
+                                    <td  class='titreNom' >Tip Produit :</td>
+                                    <td><?php      echo($tabUser['email']);     ?></td>	
+                                </tr>  
+								<tr>
+                                    <td  class='titreNom' >Suprimer</td>
+                                    <td>
+										<input id="submitBt" class="submitBt" type="submit" name="panier" value="Panier" />
+										<?php      echo($tabUser['email']);     ?></td>	
+                                </tr>         
 								              
 							<?php   ?>
-	                        </table>
+	                        </table>							
+	                        
 						</fieldset>
+						
+						
 						
                     </div>
             	</div>

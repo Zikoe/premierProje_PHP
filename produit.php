@@ -2,22 +2,13 @@
 	require_once('Php-Produite/infoTableau.inc');   
 	require_once('SQL.php');   
 	session_start();
-	
-/*	
-	$password= '123456';
-	$mailUser = 'bob@mail.ca';        //// test pour functionalite de nouvelle function dans SQL.php
-	$tabUs = selectUserEmail($mailUser , $password);
- 	var_dump($tabUs);                                                   
-*/	
-//	var_dump($_SESSION['panier']);
-	
+		
 	$produitTab = array(); 
 	$produit = array();
 	if(isset($_GET['shampoing'])){ 	$produitTab = selectProduitType("shampoing");  $prodActuel = "shampoing"; 	}
 	if(isset($_GET['mousses'])){ 	$produitTab = selectProduitType("mousses");   $prodActuel = "mousses";       }
 	
-	//var_dump($produitTab);
-	
+	//var_dump($produitTab);	
 	$produit = $produitTab;
 	
 	
