@@ -13,7 +13,8 @@
 	
 	}
 	
-	
+	$produitTabShampoing = selectProduitType("shampoing");
+	$prodActuelShampoing = "shampoing";
 	
 	
  ?>
@@ -67,44 +68,19 @@
 							 <legend class="definition-legend">Information detaille </legend>
 							
 							 <table id="tab-static">	
-								<!--<tr>
-                                    <td  class='titreNom' >Dernier Log :</td>
-                                    <td><?php      echo($tabUser['dernierLog']);     ?></td>	
-                                </tr>     -->   
-                                <tr>
+							                            				   
+							    <tr>
                                     <td  class='titreNom' >Images :</td>
-                                    <td><?php      echo($tabUser['dateInscription']);     ?></td>	
-                                </tr>  
-								<tr>
                                     <td  class='titreNom' > Nom :</td>
-                                    <td><?php      echo($tabUser['email']);     ?></td>	
-                                </tr>
-								<tr>
-                                    <td  class='titreNom' > Prix :</td>
-                                    <td><?php   	
-										
-												   if($tabUser['favorite'] == ''){ $favoritePrefere= "Aucun Favorite Choissise!"; }
-												   else{
-												   	$favoritePrefere = $tabUser['favorite'];
-												   }
-												   echo($favoritePrefere);
-												      ?></td>	
-                                </tr> 
-								<tr>
-                                    <td  class='titreNom' >Disponibilite :</td>
-                                    <td><?php      echo($tabUser['email']);     ?></td>	
-                                </tr>      
-								<tr>
-                                    <td  class='titreNom' >Tip Produit :</td>
-                                    <td><?php      echo($tabUser['email']);     ?></td>	
+									<td  class='titreNom' > Prix :</td>
+									<td  class='titreNom' >Disponibilite :</td>
+									<td  class='titreNom' >Tip Produit :</td>
+									<td  class='titreNom' >Suprimer</td>									
                                 </tr>  
-								<tr>
-                                    <td  class='titreNom' >Suprimer</td>
-                                    <td>
-										<input id="submitBt" class="submitBt" type="submit" name="panier" value="Panier" />
-										<?php      echo($tabUser['email']);     ?></td>	
-                                </tr>         
-								              
+								<tr>                                    
+                                    <td><?php       ?></td>	
+                                </tr>
+													      
 							<?php   ?>
 	                        </table>							
 	                        
