@@ -43,7 +43,54 @@
 				
 			}
 			
+					
+			/*      /// procedur pour php pour login			
+			/// trete le fichier  'user.txt'   :   				
+			$fichier_contunu = open_file("Php-Produite/data/user.txt"); /// pour verification je uver le 'user.txt'
+			$users = unserialize($fichier_contunu);
+			save_file("Php-Produite/data/user.txt", serialize($users));	///  je fermer et je souvgard le 'user.txt'
+			var_dump($users);
+			
 		
+			$trouve = 0;
+			foreach($users as $cle =>$valeur){				
+				//// si le eMail USER  il est  existe  avec son Password
+				if($users[$cle]['email'] == $recupererMail &&  $users[$cle]['password'] == $recupererPWD ){   
+					
+					if($recupererMail == 'anni@gmail.com' && $recupererPWD == '123abc' ){
+						header("Location: admin.php"); }
+					$trouve++ ;
+					$textCompte = "Si vous possedez deja un compte client ou vous devez vous inscrire!";
+					$logonNon = "";
+					
+					if(isset($_SESSION['utilisateur'])){ 
+					//	echo('sesion Existe?????????');
+					session_destroy();  /// pour detroit le session.
+					}
+					else{
+						$users[$cle]['preparationDernierLog']=dateHeurCouront();
+					
+						$_SESSION['utilisateur'] = $users[$cle]; /// je cree le  nouvelle  sesion
+					//	echo('sesion cree');
+						if( $users[$cle]['email'] == "anni@gmail.com" && $users[$cle]['password'] == "123abc"){
+							
+						}
+					}
+				 //  session_destroy();  /// pour detroit le session.
+					if($trouve != 0 && ($recupererMail != 'anni@gmail.com' || $recupererPWD != '123abc' ) ){
+						header("Location: utilisateur.php");	
+					}					
+					break;
+				}
+				//// si le user il n'existe  pas
+				if( $trouve == 0){
+				$textCompte = "";
+				$logonNon = "Dessole Votre Conte User N'existe Pas !" ;
+				}		
+				
+			
+			}
+			*/
 	}
 	
 		if(isset($_GET['panier'])){ /// si il pas conecter on antre choisise dans panier
@@ -108,18 +155,20 @@ if(isset($_POST['login']) && isset($_POST['pwd'])){
     </head>
 	
     <body>
-        <!--google analysics   script-->
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-39033374-1']);
-            _gaq.push(['_trackPageview']);
+          <!--google analysics   script-->
+       <script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39960575-1']);
+		  _gaq.push(['_setDomainName', 'gyoki2005.tk']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
 
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
         <div id="page">
 
                 <?php   require_once('template/template-header.php');  ?>
