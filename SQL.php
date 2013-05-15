@@ -113,6 +113,24 @@ function selectUser($eMail){
 	return $user;	
 }
 
+function usersTab($adminNb){ //// pour obtenir le liste de users.
+	$con = connectDB();  /// je appele le conexion.
+	/// var_dump($con); /// si pas 'null' dit il ya erreur!!!!
+	$result = mysqli_query($con, "SELECT * FROM users WHERE users.admin = '".$adminNb."'");
+	$i = 0;
+	while($row = mysqli_fetch_array($result)){
+		$users = $row;
+		$i++;
+	}	
+	mysqli_close($con);	
+	var_dump($users);   //// dans user (tableau array) il a de user qui on charche avec son user ! 
+	if($i == 0 ){
+		return ; //// il return rien
+	}
+	return $users;	
+	
+}
+
 
 function selectUserEmail($eMail, $password){  /// $eMail = email  de user,   exp: $bob@mail.com	
 	$con = connectDB();  /// je appele le conexion.
