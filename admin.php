@@ -4,6 +4,15 @@
 	include_once('Php-Produite/infoTableau.inc');
 	require_once('SQL.php');   //// SQL base de Donne
 	
+	$idProduit = "";
+	
+	if(isset($_GET['sup'])){
+		$idProduit = $_GET['sup'];
+	//	echo($idProduit); 
+		echo('ok');
+		suprimerProduitId($idProduit);	
+	}
+	
 	if(isset($_SESSION['utilisateur'])){	
 		$tabUser =  $_SESSION['utilisateur'];
 		$nomUser = $tabUser['nom'];	
@@ -11,16 +20,10 @@
 		$textCompte = "Bonjour ".$nomUser." ".$prenomUser;
 		$textCompteBienvenue = "Bon journee sur poste de travaille et Sans erreur!";
 	
-	}
-	
+	}	
 	$produitTabShampoing = selectProduitType("shampoing");
 	$produitTabMousses = selectProduitType("mousses");
-	var_dump($produitTabShampoing);
-	
-	$prodActuelShampoing = "shampoing";
-	$prodActuelMousses = "mousses";
-	
-	
+	//var_dump($produitTabShampoing);
  ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -94,9 +97,8 @@
                                     <td><?php  echo($articleShampoing['prix']);  ?></td>	
                                     <td><?php  echo($articleShampoing['disponible']);  ?></td>	
                                     <td><?php  echo($articleShampoing['typeProduit']);  ?></td>	
-                                    <td><input id="suprimeBt" class="supr" type="button" name="suprime" value="Suprime" />
-																			
-									</td>	
+                                    <td><a href="admin.php?sup=<?php echo($articleShampoing['id']); ?>">
+									<input id="suprimeBt" class="supr" type="button" name="suprime" value="Suprime" /></a>												</td>	
                                 </tr>
 													      
 							<?php }  ?>

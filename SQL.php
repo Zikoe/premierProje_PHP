@@ -49,6 +49,15 @@ function selectProduitId($id){
 	return $produit;	
 }
 
+function suprimerProduitId($id){	 /// suprimer le produi!	
+	$con = connectDB();  /// je appele le conexion.
+	/// 
+	// var_dump($con); /// si pas null dit il ya erreur
+    mysqli_query($con, "DELETE FROM produit WHERE produit.id = '".$id."'");
+	mysqli_close($con);	
+	//var_dump($produit);
+	return;	
+}
 
 ////  sur Creation On insere ajouter User Nouvelle :
 function creationUser($dateInscription, $sexe, $nom, $prenom, $email, $password, $phone, $favorite){ //// 9 colone qui existe/souf le colon admin je ne pas declare comme variable:
