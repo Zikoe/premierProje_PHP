@@ -42,7 +42,7 @@
                                     <ul  class="devlopper">
                                         <li><h3>Cette Site est Developpe par <span class="color-devlo">  Edis Dikmeme. </span></h3></li>
                                         <li class="devlopper-devinition">2013 All Rights Reserved. Montréal  Québec Canada</li>
-                                        <li class="devlopper-devinition">develo@gmail.com</li>
+                                        <li class="devlopper-devinition">example@mail.com</li>
                                     </ul>
                                 </li>
                             </ul>

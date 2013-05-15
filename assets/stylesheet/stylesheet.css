@@ -953,4 +953,45 @@ label.error {
 /*-------------------------------------------   pages ADMIN.PHP --------------------------------------------*/
 
 
+#form-container-admin{
+    background-color:#f7efff;
+    width: 850px;
 
+    margin: 50px auto;
+    padding: 20px 0 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+#fieldset-container-admin{
+	padding: 20px;
+	width: 800px;
+	margin: 55px auto;
+	border-radius: 20px;
+	
+}
+#fieldset-container-admin #tab-static table{
+	border: 1px solid #808080;
+    margin-left: 37px;
+    padding: 2px;
+	
+}
+
+#fieldset-container-admin #tab-static ul li{	
+ 	color: #2E2701;
+    display: block;
+}
+#fieldset-container-admin #tab-static .group{  color: #730000;  }
+
+
+#fieldset-container-admin #tab-static .titreNom {
+    background-color: #D1D6FE;
+    color: #8A7902;
+    font-weight: bold;
+}
+#fieldset-container-admin #tab-static table tr td {
+    border: 1px solid #808080;
+    padding: 4px;
+}
+.supr {
+	background-color: #ff0000;
+	color: snow;
+}

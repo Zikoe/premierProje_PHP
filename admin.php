@@ -14,7 +14,11 @@
 	}
 	
 	$produitTabShampoing = selectProduitType("shampoing");
+	$produitTabMousses = selectProduitType("mousses");
+	var_dump($produitTabShampoing);
+	
 	$prodActuelShampoing = "shampoing";
+	$prodActuelMousses = "mousses";
 	
 	
  ?>
@@ -58,30 +62,44 @@
                     <p class="salon-text1">      <?php  echo($textCompteBienvenue);      ?></p>
 					
                     
-					<div id="form-container-produite">
+					<div id="form-container-admin">
 						<div id="div-infoTextUser">
 						 	<span id="infoTextUser" >Votre information registre Actuel jusqua <?php echo(dateHeurCouront()); ?> </span>
                     	</div>
 						
 						
 						<fieldset class="fieldset-container-utilisateur">
-							 <legend class="definition-legend">Information detaille </legend>
+							 <legend class="definition-legend">Produit Shampoing : </legend>
 							
 							 <table id="tab-static">	
 							                            				   
 							    <tr>
-                                    <td  class='titreNom' >Images :</td>
-                                    <td  class='titreNom' > Nom :</td>
-									<td  class='titreNom' > Prix :</td>
-									<td  class='titreNom' >Disponibilite :</td>
-									<td  class='titreNom' >Tip Produit :</td>
+                                    <td  class='titreNom' ></td>
+                                    <td  class='titreNom' >Images Produit :</td>
+                                    <td  class='titreNom' > Nom </td>
+									<td  class='titreNom' > Prix </td>
+									<td  class='titreNom' >Disponibilite </td>
+									<td  class='titreNom' >Tip Produit </td>
 									<td  class='titreNom' >Suprimer</td>									
                                 </tr>  
-								<tr>                                    
-                                    <td><?php       ?></td>	
+								<?php	$nb = 0; 
+										 foreach($produitTabShampoing as $cle=>$articleShampoing ){                                     												$nb++;
+											?>
+								<tr> 
+									<td  class='titreNom' ><?php echo($nb); ?> </td>                                   
+                                    <td>
+							<img class="image" alt="Shampooing" src="<?php  $img = $articleShampoing["images"]; echo($img); ?>"/>
+									</td>	
+                                    <td><?php  echo($articleShampoing['nom']);  ?></td>	
+                                    <td><?php  echo($articleShampoing['prix']);  ?></td>	
+                                    <td><?php  echo($articleShampoing['disponible']);  ?></td>	
+                                    <td><?php  echo($articleShampoing['typeProduit']);  ?></td>	
+                                    <td><input id="suprimeBt" class="supr" type="button" name="suprime" value="Suprime" />
+																			
+									</td>	
                                 </tr>
 													      
-							<?php   ?>
+							<?php }  ?>
 	                        </table>							
 	                        
 						</fieldset>
